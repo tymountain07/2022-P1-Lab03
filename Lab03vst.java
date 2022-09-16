@@ -9,7 +9,12 @@ public class Lab03vst
 	public static void main(String[] args)
 	{
       System.out.println("Lab03, 80 Point Version\n");
-      
+	  int seconds = 10000;
+	  System.out.println("Starting Seconds:" + seconds);
+	  System.out.println("Hours:" + seconds/3600);
+	  int hours = (seconds/3600);
+	  int remainder = (seconds%3600);
+	  System.out.println("Minutes:" + remainder/60);
 	}
 }
 
