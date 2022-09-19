@@ -12,9 +12,9 @@ public class Lab03vst
 	  int seconds = 10000;
 	  System.out.println("Starting Seconds:" + seconds);
 	  System.out.println("Hours:" + seconds/3600);
-	  int hours = (seconds/3600);
 	  int remainder = (seconds%3600);
 	  System.out.println("Minutes:" + remainder/60);
+	  System.out.println("Seconds:" +  remainder%60);
 	}
 }
 
